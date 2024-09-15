@@ -1,14 +1,14 @@
 # Shape Intersection Project
 
-This project involves implementing and testing a collection of shape classes and their intersection methods using Java. The project is divided into two parts: **Assignment 1** (shape creation and intersection implementation) and **Assignment 2** (testing the implementation and handling exceptions).
+This project involves implementing and testing a collection of shape classes and their intersection methods using Java. The project is divided into two parts: **Part 1** (shape creation and intersection implementation) and **Part2 2** (testing the implementation and handling exceptions).
 
 ## Table of Contents
 - [Overview](#overview)
-- [Assignment 1: Shape Classes and Intersection Methods](#assignment-1-shape-classes-and-intersection-methods)
+- [Part 1: Shape Classes and Intersection Methods](#assignment-1-shape-classes-and-intersection-methods)
   - [Class Diagram](#class-diagram)
   - [Shape Classes](#shape-classes)
   - [Intersection Detection](#intersection-detection)
-- [Assignment 2: Testing and Exception Handling](#assignment-2-testing-and-exception-handling)
+- [Part 2: Testing and Exception Handling](#assignment-2-testing-and-exception-handling)
   - [Task 1: Test of Intersection](#task-1-test-of-intersection)
   - [Task 2: Exception Handling](#task-2-exception-handling)
 
@@ -20,7 +20,7 @@ This project consists of creating and testing various shape classes, such as cir
 
 ---
 
-## Assignment 1: Shape Classes and Intersection Methods
+## Part 1: Shape Classes and Intersection Methods
 
 ### Class Diagram
 
@@ -44,7 +44,7 @@ Each shape class implements an `intersect` method to detect whether two shapes i
 
 ---
 
-## Assignment 2: Testing and Exception Handling
+## Part 2: Testing and Exception Handling
 
 ### Task 1: Test of Intersection
 
