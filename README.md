@@ -63,7 +63,7 @@ Test cases are designed to cover a variety of intersection situations for each s
 - Code result (true/false).
 - Test result (pass/fail).
 
-The tests are implemented in the file [`A2Test.java`](./A2Test.java), while the detailed test cases are documented in the file [`A2Test.pdf`](./A2Test.pdf).
+The tests are implemented in the file [`A2Test.java`](./A2Test.java), while the detailed test cases are documented in the file [`A2Test2.pdf`](./A2Test2.pdf).
 
 ### Task 2: Exception Handling
 
