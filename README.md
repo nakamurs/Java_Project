@@ -24,7 +24,7 @@ This project consists of creating and testing various shape classes, such as cir
 
 ### Class Diagram
 
-The provided UML class diagram describes the structure and relationships between the shape classes, including `AbstractShape`, `Rectangle`, `LineSeg`, `Point`, and `Circle`. Each class is implemented in its own `.java` file.
+The provided UML class diagram describes the structure and relationships between the shape classes, including `AbstractShape`, `Rectangle`, `LineSeg`, `Point`, and `Circle`. 
 
 ### Shape Classes
 
@@ -34,7 +34,12 @@ The provided UML class diagram describes the structure and relationships between
 - **Rectangle**: Defined by its left, right, top, and bottom boundaries.
 - **LineSeg**: A line segment defined by two endpoints (`Point`).
 
-Each shape is designed to be created with valid parameters, such as a positive radius for circles and non-overlapping boundaries for rectangles. All shapes are placed in their own separate Java files.
+Each shape is designed to be created with valid parameters, such as a positive radius for circles and non-overlapping boundaries for rectangles. All shapes are placed in their own separate Java files:
+- [`AbstractShape.java`](./AbstractShape.java)
+- [`Point.java`](./Point.java)
+- [`Circle.java`](./Circle.java)
+- [`Rectangle.java`](./Rectangle.java)
+- [`LineSeg.java`](./LineSeg.java)
 
 ### Intersection Detection
 
@@ -58,12 +63,14 @@ Test cases are designed to cover a variety of intersection situations for each s
 - Code result (true/false).
 - Test result (pass/fail).
 
-Example format for test cases:
-```plaintext
-Test of Circle.intersect(Circle)
-Case 1:
-Circle c1 = new Circle(new Point(0.2f, 0.1f), 1.7f); 
-Circle c2 = new Circle(new Point(6.2f, -1.3f), 0.9f); 
-Expected Result: false
-Code Result: false
-Test Result: pass
+The tests are implemented in the file [`A2Test.java`](./A2Test.java), while the detailed test cases are documented in the file [`A2Test.pdf`](./A2Test.pdf).
+
+### Task 2: Exception Handling
+
+In **Task 2**, we handle invalid shapes and throw custom exceptions. The goal is to catch illegal shape construction scenarios, such as:
+- A line segment with coincided begin and end points.
+- A circle with radius less than or equal to 0.
+- A rectangle where `left >= right` or `bottom >= top`.
+
+For these cases, we define a custom exception class [`ShapeArgumentException.java`](./ShapeArgumentException.java), which inherits from `Exception`. The illegal cases are handled using a `try-catch` block, and if an exception is caught, the message printed is:  
+`ShapeArgumentException in constructing <ShapeClassName>`.
