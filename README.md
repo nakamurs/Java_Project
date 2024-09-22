@@ -1,6 +1,6 @@
 # Shape Intersection Project
 
-This project involves implementing and testing a collection of shape classes and their intersection methods using Java. The project is divided into two parts: **Part 1** (shape creation and intersection implementation) and **Part2 2** (testing the implementation and handling exceptions).
+This project involves implementing and testing a collection of shape classes and their intersection methods using Java. The project is divided into two parts: **Part 1** (shape creation and intersection implementation) and **Part2** (testing the implementation and handling exceptions).
 
 ## Table of Contents
 - [Overview](#overview)
